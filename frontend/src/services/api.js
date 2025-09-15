@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000',  // Backend URL
+baseURL: 'https://taskify-backend-k14v.onrender.com',
 });
 
 // Add token to every request
